@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GumnutMrKick/week3workshop/issues"
   },
-  "homepage": "https://github.com/GumnutMrKick/week3workshop#readme"
+  "homepage": "https://github.com/GumnutMrKick/week3workshop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
