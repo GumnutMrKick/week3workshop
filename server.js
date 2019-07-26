@@ -2,6 +2,7 @@ let express = require('express');
 let app = express();
 let http = require('http').Server(app);
 app.use(express.static(__dirname+'/www'));
+let path = require('path');
 
 //routes
 require('./routes/accountroute.js')(app,path);
