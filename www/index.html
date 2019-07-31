@@ -1,17 +1,20 @@
 <head>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="loginscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-    <form action="action_page.php">
-        
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-        
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+    <form id="loginform">
+        <label for="email"><b>Email</b></label>
+        <input type="email" name="email" id="email">
+    
+        <label for="parword"><b>Password</b></label>
+        <input type="password" name="parword" id="parword">
         <button type="submit">Login</button>
-
     </form>
+
+    <div id="errormsg" class="hidemessage"><p>User credentials do not match</p></div>
+
 
 </body>
